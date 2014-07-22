@@ -5,7 +5,7 @@
   ,"version":"1.0.0"
   ,"content_scripts":[
     {
-      "matches":["https://twitter.com/*", "https://tweetdeck.com/*"]
+      "matches":["https://twitter.com/*", "https://tweetdeck.com/*", "https://tweetdeck.twitter.com/*"]
       ,"js":["jquery.js","load.js"]
     }
   ]
