@@ -16,6 +16,9 @@ fairly self explanatory, but just in case, this package will replace t.co urls o
 - install greasemonkey
 - add __greasemonkey.js__ to your userscripts
 
+##safari
+- install t.co-bypass.safariextz
+
 ##ie
 
 - lol, what?
