@@ -3,7 +3,6 @@
 // @namespace   http://darcsys.com
 // @include     https://twitter.com/*
 // @include     https://tweetdeck.com/*
-// @require     http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
 // @version     1
 // @grant       none
 // ==/UserScript==
