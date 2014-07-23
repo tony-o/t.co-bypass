@@ -6,7 +6,7 @@
   ,"content_scripts":[
     {
       "matches":["https://twitter.com/*", "https://tweetdeck.com/*", "https://tweetdeck.twitter.com/*"]
-      ,"js":["jquery.js","load.js"]
+      ,"js":["load.js"]
     }
   ]
 }
