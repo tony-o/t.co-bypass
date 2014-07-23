@@ -27,4 +27,6 @@ var config = {
   subtree: true
 };
 
-observer.observe(document.body, config);
+document.addEventListener("DOMContentLoaded", function(event) { 
+  observer.observe(document.body, config);
+});
