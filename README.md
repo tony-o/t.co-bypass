@@ -29,4 +29,4 @@ I'm listed last, I encourage you to give to the all the folks in the list - they
 
 [@timdorr](https://www.gittip.com/timdorr/)
 
-[@segomos](https://www.gittip.com/tony-o/)
+[@tony-o](https://www.gittip.com/tony-o/)
