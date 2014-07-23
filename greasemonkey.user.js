@@ -7,6 +7,7 @@
 // @version     1
 // @grant       none
 // ==/UserScript==
+var real_url_attrs = ['data-expanded-url', 'data-full-url', 'title'];
 
 var observer = new MutationObserver(function(mutations) {
   var aTags = document.body.getElementsByTagName("a");
@@ -16,7 +17,13 @@ var observer = new MutationObserver(function(mutations) {
       continue;
     }
     if (tag.href && tag.href.indexOf("://t.co/") > -1) {
-      tag.href = tag.getAttribute("data-expanded-url") !== "" && tag.getAttribute("data-expanded-url") !== null ? tag.getAttribute("data-expanded-url") : tag.getAttribute("data-full-url") !== "" && tag.getAttribute("data-full-url") !== null ? tag.getAttribute("data-full-url") : tag.getAttribute("title");
+      for (var attr in real_url_attrs) {
+        var value = tag.getAttribute(real_url_attrs[attr]);
+        if (value) {
+          tag.href = value;
+          break;
+        }
+      }
     }
   };
 
