@@ -13,8 +13,8 @@ Fairly self explanatory, but just in case, this package will replace t.co URLs o
 
 ##Firefox
 
-- install Greasemonkey
-- add __greasemonkey.js__ to your userscripts
+- install [Greasemonkey](http://www.greasespot.net/), [Scriptish](http://scriptish.org/), or [dotjs](https://addons.mozilla.org/en-US/firefox/addon/dotjs/)
+- add __greasemonkey.user.js__ to your userscripts
 
 ##Safari
 - install t.co-bypass.safariextz
