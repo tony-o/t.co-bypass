@@ -22,7 +22,7 @@ var observer = new MutationObserver(function(mutations) {
         tag.href = tag.getAttribute("data-expanded-url");
       } else if (tag.getAttribute("data-full-url") !== "" && tag.getAttribute("data-full-url") !== null) {
         tag.href = tag.getAttribute("data-full-url");
-      } else {
+      } else if (tag.getAttribute("title") !== "" && tag.getAttribute("title") !== null) {
         tag.href = tag.getAttribute("title");
       }
     }
