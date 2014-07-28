@@ -27,4 +27,7 @@ Fairly self explanatory, but just in case, this package will replace t.co URLs o
 
 In no particular order (links are gittip.com)
 
-[@timdorr](https://www.gittip.com/timdorr/), [@tony-o](https://www.gittip.com/tony-o/), @tomsterritt, @shayel, @aawc, @CoreyH, @titanious, @bisho
+[@charlesthomas](https://www.gittip.com/charlesthomas/),
+[@timdorr](https://www.gittip.com/timdorr/),
+[@tony-o](https://www.gittip.com/tony-o/), @tomsterritt, @shayel, @aawc,
+@CoreyH, @titanious, @bisho
