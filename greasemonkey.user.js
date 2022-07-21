@@ -11,7 +11,7 @@
 const observer = new MutationObserver(function(mutations) {
     const nodes = [...document.querySelectorAll("a[href^='https://t.co/']")];
     nodes.map(node => {
-        const url = [...node.childNodes].map(n => n.innerHTML ?? n.textContent).filter(text => text !== '…').join('');
+        const url = [...node.childNodes].map(n => n.innerHTML ?? n.textContent).map(text => text.includes('<g>') ? 'https://' : text).filter(text => text !== '…').join('');
         node.href = url;
     });
 });
