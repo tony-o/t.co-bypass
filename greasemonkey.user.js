@@ -3,7 +3,7 @@
 // @namespace   http://darcsys.com
 // @include     https://twitter.com/*
 // @include     https://tweetdeck.com/*
-// @include     https://tweetdeck.twitter.com/*
+// @include     https://*.twitter.com/*
 // @version     2
 // @grant       none
 // ==/UserScript==
